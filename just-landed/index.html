@@ -22,11 +22,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
-  <body style="width:90%; margin:auto; " > 
+  <body style="width:95%; margin:auto; " > 
+    
     <header>
       <ul class="breadcrumb">
         <li class="breadcrumb-item">
-          <a class="text-warning" href="#">~/</a>
+          <a class="text-warning" href="#" > ~ </a>
+          <a class="text-warning"          > / </a>
         </li>
       </ul>
     </header>
@@ -38,110 +40,214 @@
 			   alt="Avatar Logo" style="width:40px;" class="rounded-pill shadow-sm"
                src="https://www.w3schools.com/bootstrap5/img_avatar1.png">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
+
+
+         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="/p/t">Teaching</a>
+              <!-- <a class="nav-link text-dark" href="/p/r">Research</a> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="/p/p">Portfolio</a>
+              <!-- <a class="nav-link text-dark" href="/p/d">Teach</a> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="/p/r">Research</a>
-            </li>
-            <!-- <li class="nav-item">
+              <!-- <a class="nav-link text-dark" href="/p/e">Project</a> -->
+            </li> 
+
+
+             <!-- <li class="nav-item">
               <a class="nav-link text-dark" href="/p/w">Work</a>
             </li> -->
-          </ul>
+          </ul> 
+
+
           <!-- <form class="d-flex">
             <input class="form-control me-2" type="text" placeholder="Search">
             <button class="btn btn-primary bg-success" type="button">Search</button>
-          </form> -->
+          </form>  -->
         </div>
-      </div>
+      </div> 
     </nav>
   
+
     
+
     <main>
       <div class="row justify-content-around">
-        <!-- Software Engineering Card -->
-        <div class="col-lg-3 card">
-          <img class="card-img-top" src="https://www.w3schools.com/bootstrap5/img_avatar1.png" alt="Software Engineering Image">
+
+
+          <div class="col-sm-3 card">
+          </div>
+
+          <div class="col-sm-6 card">
+            <img class="card-img-top" 
+          src="https://www.w3schools.com/bootstrap5/img_avatar1.png"
+          alt="Computer Scientist Image">
+
+          <!-- <h4 class="card-title"></h4> -->
+
+          <div class ="card-title text-center">
+            <!-- <p class="card-title text-secondary" style="display: inline;">Hyper</p> -->
+            <!-- <h4 class="card-title text-danger" style="display: inline;">SPACES</h4> -->
+          </div>
+
           <div class="card-body text-center">
-            <span class="badge rounded-pill bg-danger text-dark">Engineer</span>
+
+
+            <div class = "btn-group-justified btn-group-sm">
+
+                <button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown">
+                  Research
+                </button>
+                <ul class="dropdown-menu">
+                  <li><h5 class="dropdown-header">Mathematics</h5></li>
+                  <li><a class="dropdown-item" href="#">Polytopes</a></li>
+                  <li><a class="dropdown-item" href="#">Topology</a></li>
+                  <li><h5 class="dropdown-header">Computer Science</h5></li>
+                  <li><a class="dropdown-item" href="#">Shader Rendering</a></li>
+                  <li><a class="dropdown-item" href="#">Computational Geometry</a></li>
+                  <li><a class="dropdown-item" href="#">Deployment & Packaging</a></li>
+                  <li><h5 class="dropdown-header">Physics</h5></li>
+                  <!-- <li><a class="dropdown-item" href="#">Forces</a></li> -->
+                  <li><a class="dropdown-item" href="#">Rigidbodies</a></li>
+                  <li><a class="dropdown-item" href="#">Collisions</a></li>
+                </ul>
+
+
+                <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">
+                  Teach
+                </button>
+                <ul class="dropdown-menu">
+                  <li><h5 class="dropdown-header">Mathematics</h5></li>
+                  <li><a class="dropdown-item" href="#">Algebra</a></li>
+                  <li><a class="dropdown-item" href="#">Geometry</a></li>
+                  <li><h5 class="dropdown-header">Computer Science</h5></li>
+                  <li><a class="dropdown-item" href="#">Data Structures</a></li>
+                  <li><a class="dropdown-item" href="#">Software Development</a></li>
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+                  <li><h5 class="dropdown-header">Physics</h5></li>
+                  <li><a class="dropdown-item" href="#">Forces</a></li>
+                  <li><a class="dropdown-item" href="#">Calculus</a></li>
+                </ul>
+
+
+                <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown">
+                  Freelance
+                </button>
+                <ul class="dropdown-menu">
+                  <li><h5 class="dropdown-header">Data Science</h5></li>
+                  <li><a class="dropdown-item" href="#">Web Crawler</a></li>
+                  <li><a class="dropdown-item" href="#">Product Clustering</a></li>
+                  <li><a class="dropdown-item" href="#">Price Predictor</a></li>
+                  <li><h5 class="dropdown-header">Computational Geometry</h5></li>
+                  <li><a class="dropdown-item" href="#">Industrial Rendering</a></li>
+                  <li><a class="dropdown-item" href="#">Elastic Physics Environment</a></li>
+                  <li><a class="dropdown-item" href="#">f(x) graphing</a></li>
+                  <li><h5 class="dropdown-header">Web Technologies</h5></li>
+                  <li><a class="dropdown-item" href="#"><code>keyword</code> in social-media</a></li>
+                </ul>
+
+              </div>
+
+
+            <!-- <span class="badge rounded-pill bg-danger text-dark">Research</span> -->
             <!-- <span class="badge rounded-pill bg-success text-dark">Graphics API</span> -->
             <!-- <span class="badge rounded-pill bg-info text-dark">Patterns</span> -->
 
-            <br>
+            <!-- <br> -->
             <!-- <p class="card-title text-secondary" style="display: inline;">ACADEMIC</p>
             <h4 class="card-title text-danger" style="display: inline;">Teacher</h4> -->
 
-            <p class="card-title text-secondary" style="display: inline;">GRAPHICS</p>
-            <h4 class="card-title text-danger" style="display: inline;">API</h4>
+            <!-- <p class="card-title text-secondary" style="display: inline;">GRAPHICS</p>
+            <h4 class="card-title text-danger" style="display: inline;">API</h4> -->
             
+            <br>
             <br>
             <!-- <p class="card-title text-secondary" style="display: inline;">(resource-management)</p> -->
-            <br>
-            <br>            
+
+
+
+
+
+
+
+
+
+
+
             
-<!--             
-            <a class="btn btn-danger text-dark" href="https://drgsl.github.io/teach/eng/course">COURSE</a>
-            <a class="btn btn-secondary text-dark" href="https://drgsl.github.io/teach/eng/lab">meet</a>
-            <a class="btn btn-secondary text-dark" href="https://drgsl.github.io/teach/eng/exam">design</a> -->
-
-
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-danger text-dark">Mathematics</button>
+              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Algebra</a></li>
+                <li><a href="#">Geometry</a></li>
+                <li><a href="#">Topology</a></li>
+                <li><a href="#">Calculus</a></li>
+              </ul>
+            </div>  -->
+            <!-- <div class="btn-group-justified">
+              <button type="button" class = "btn btn-danger text-dark">
+                  Topologies
+                </button>       
+  
+  
+              <a href = "#" target="_blank">
+              <button type="button" class = "btn btn-success text-dark">
+                  Rendering
+                </button> 
+              </a>
+              <a href = "#" target="_blank">
+              <button type="button" class = "btn btn-info text-dark">
+                  Simulations
+                </button>
+              </a>
+            </div> -->
           </div>
         </div>
 
+
+        <div class="col-sm-3 card">
+          </div>
+
         <!-- Applied Math Card -->
-        <div class="col-lg-3 card">
+        <!-- <div class="col-lg-3 card">
           <img class="card-img-top" src="https://www.w3schools.com/bootstrap5/img_avatar1.png" alt="Applied Math Image">
-          <div class="card-body text-center">
+          <div class="card-body text-center"> -->
 
             
             <!-- <span class="badge rounded-pill bg-danger text-dark">Analysis</span> -->
             <!-- <span class="badge rounded-pill bg-success text-dark">Computational-theory</span> -->
-            <span class="badge rounded-pill bg-info text-dark">Research</span>
+            <!-- <span class="badge rounded-pill bg-info text-dark">Research</span> -->
 
 
-            <br>
+            <!-- <br> -->
             <!-- <p class="card-title text-secondary" style="display: inline;">MATHEMATICAL</p>
             <h4 class="card-title text-info" style="display: inline;">Researcher</h4> -->
-            <p class="card-title text-secondary" style="display: inline;">HYPER</p>
-            <h4 class="card-title text-info" style="display: inline;">Space</h4>
+            <!-- <p class="card-title text-secondary" style="display: inline;">HYPER</p> -->
+            <!-- <h4 class="card-title text-info" style="display: inline;">Space</h4> -->
             
-            <br>
+            <!-- <br> -->
             <!-- <p class="card-title text-secondary" style="display: inline;">(python)</p> -->
             <!-- <p class="card-title text-secondary" style="display: inline;">(component)</p> -->
-            <br>
-            <br>            
+            <!-- <br> -->
+            <!-- <br>             -->
             
             <!-- <a class="btn btn-info      text-dark" href="https://drgsl.github.io/teach/math/course">COURSE</a>
             <a class="btn btn-secondary text-dark" href="https://drgsl.github.io/teach/math/lab">seminar</a>
             <a class="btn btn-secondary text-dark" href="https://drgsl.github.io/teach/math/exam">exercise</a> -->
 
-          </div>
-        </div>
+          <!-- </div> -->
+        <!-- </div> -->
       </div>
     </main>
 
-
-    <!-- <footer>
-
-      <div class = "row">
-        <div class = "col-lg-4">
-          contact info
-        </div>
-
-        <div class = "col-lg-4">
-          contact info
-        </div>
-      </div>
-
-    </footer> -->
   
   </body>
 </html>
